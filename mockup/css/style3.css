@@ -1,0 +1,110 @@
+
+.mockup .mobile-mockup {
+  border: 1px solid rgba(255, 255, 255, 0.2039215686);
+  background-color: rgb(36, 36, 36);
+  width: 375px;
+  height: 800px;
+  position: relative;
+  border-radius: 60px;
+  
+}
+.mockup .mobile-mockup:before {
+  background-color: #333;
+  content: "";
+  position: absolute;
+  width: 97.5%;
+  height: 98.5%;
+  border-radius: 60px;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  box-shadow: 0 0 10px rgba(255, 255, 255, 0.801);
+}
+.mockup .mobile-mockup .iframe-url {
+  position: absolute;
+  width: 340px;
+  height: 760px;
+  border: 1px solid #333;
+  border-radius: 49px;
+  color: #fff;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 2em;
+}
+.mockup .mobile-mockup .iframe-url iframe {
+  border-radius: 50px;
+  width: 100%;
+  height: 100%;
+}
+.mockup .camera {
+  width: 0px;
+  height: 50px;
+  position: absolute;
+  top: 10px;
+  left: 48%;
+  z-index: 1000;
+  transform: translateX(-50%);
+}
+.mockup .camera span {
+  background-color: rgba(0, 0, 0, 0.6705882353);
+  position: absolute;
+}
+.mockup .camera span:nth-child(1) {
+  width: 50px;
+  height: 10px;
+  border-radius: 7px;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.mockup .camera span:nth-child(2) {
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+  right: 110px;
+  top: 50%;
+  transform: translateY(-50%);
+}
+.mockup .power {
+  position: absolute;
+  right: 0;
+  top: 87px;
+}
+.mockup .power span {
+  position: absolute;
+  width: 7px;
+  height: 80px;
+  border-radius: 0 5px 5px 0;
+}
+.mockup .volume {
+  position: absolute;
+  width: 7px;
+  height: 150px;
+  top: 87px;
+  right: 100%;
+}
+.mockup .volume span {
+  position: absolute;
+  width: 7px;
+  height: 45px;
+  border-radius: 5px 0 0 5px;
+  transform: rotateY("180deg");
+}
+.mockup .volume span:nth-child(1) {
+  top: 0;
+  height: 25px;
+}
+.mockup .volume span:nth-child(2) {
+  bottom: 55px;
+}
+.mockup .volume span:nth-child(3) {
+  bottom: 0;
+}
+.mockup .volume span,
+.mockup .power span {
+  background-color: rgb(36, 36, 36);
+}
